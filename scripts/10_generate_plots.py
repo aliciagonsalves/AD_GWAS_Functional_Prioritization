@@ -276,6 +276,9 @@ def generate_all_plots():
 
     # --- 7. Generate Plots 6 & 7: Interactive Locus Plots with Plotly ---
     print("Generating 6/7 & 7/7: Interactive Locus Plots...")
+    
+    # Define the latest Plotly JS CDN path
+    PLOTLY_CDN_PATH = 'https://cdn.plot.ly/plotly-latest.min.js'
 
     def create_interactive_locus_plot(snp_info, ld_block, gene_info, variant_type_color):
         """Creates an interactive locus plot using Plotly."""
@@ -323,7 +326,10 @@ def generate_all_plots():
         prot_ld_block = df_ld[df_ld['SNP'] == top_prot_hit['SNP']].iloc[0]
         prot_gene_info = df_genes[df_genes['eGene'] == top_prot_hit['eGene']].iloc[0]
         fig_prot = create_interactive_locus_plot(top_prot_hit, prot_ld_block, prot_gene_info, COLOR_PROTECTIVE)
-        fig_prot.write_html(os.path.join(output_dir, "06_interactive_protective_locus.html"))
+        fig_prot.write_html(
+            os.path.join(output_dir, "06_interactive_protective_locus.html"),
+            include_plotlyjs=PLOTLY_CDN_PATH
+        )
         print("  > Interactive protective locus plot saved.")
     else:
         print("  > No protective SNPs with Hi-C support found to plot.")
@@ -334,7 +340,10 @@ def generate_all_plots():
         risk_ld_block = df_ld[df_ld['SNP'] == top_risk_hit['SNP']].iloc[0]
         risk_gene_info = df_genes[df_genes['eGene'] == top_risk_hit['eGene']].iloc[0]
         fig_risk = create_interactive_locus_plot(top_risk_hit, risk_ld_block, risk_gene_info, COLOR_RISK)
-        fig_risk.write_html(os.path.join(output_dir, "07_interactive_risk_locus.html"))
+        fig_risk.write_html(
+            os.path.join(output_dir, "07_interactive_risk_locus.html"),
+            include_plotlyjs=PLOTLY_CDN_PATH
+        )
         print("  > Interactive risk locus plot saved.")
     else:
         print("  > No risk SNPs with Hi-C support found to plot.")

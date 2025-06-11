@@ -55,9 +55,9 @@ We next investigated whether the prioritized target genes were functionally rela
 ### Mechanistic Deep Dive on Top Loci
 Finally, our pipeline culminated in a list of high-confidence SNP-eGene pairs supported by all three evidence types. The interactive plots below provide a deep dive into our top-ranked protective and risk loci, illustrating the full chain of evidence from the GWAS LD block, through the Hi-C chromatin loop, to the target gene.
 
-![Interactive Protective Locus Plot](results/figures/protective_locus.png)](results/figures/06_interactive_protective_locus.html)
+[![Interactive Protective Locus Plot](results/figures/protective_locus.png)](results/figures/06_interactive_protective_locus.html)
 
-![Interactive Risk Locus Plot](results/figures/risk_locus.png)](results/figures/07_interactive_risk_locus.html)
+[![Interactive Risk Locus Plot](results/figures/risk_locus.png)](results/figures/07_interactive_risk_locus.html)
 *__Figure 5: Interactive views of the top prioritized loci.__ These figures integrate the GWAS LD block (colored bar), the target eGene (grey bar), and the supporting Hi-C interaction (dashed arc).*
 
 ---
