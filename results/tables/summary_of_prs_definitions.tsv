@@ -1,0 +1,5 @@
+PRS Tier	Variant Type	Number of SNPs
+Eqtl informed	Protective.tsv	19
+Eqtl informed	Risk.tsv	25
+Gwas tier	Protective.tsv	42
+Gwas tier	Risk.tsv	53

@@ -1,0 +1,20 @@
+Gene	Lead SNP	Effect (BETA)	Description	Brain Co-Expression Cluster	Protein Class	Subcellular Location
+HLA-DQA2	rs6605556	-0.098	Major histocompatibility complex, class II, DQ alpha 2		Human disease related genes, Predicted membrane proteins	
+EGFR	rs74504435	-0.084	Epidermal growth factor receptor	Cluster 19: Astrocytes - Mixed function	Cancer-related genes, Disease related genes, ...	Golgi apparatus, Plasma membrane
+HLA-DRB1	rs6605556	-0.098	Major histocompatibility complex, class II, DR beta 1	Cluster 21: Non-specific - Metabolism	Disease related genes, Human disease related genes, ...	
+INO80E	rs1140239	-0.059	INO80 complex subunit E	Cluster 13: Oligodendrocytes - Mixed function	Predicted intracellular proteins	Nucleoplasm
+CHRNE	rs934631	-0.082	Cholinergic receptor nicotinic epsilon subunit	Cluster 15: Non-specific - Transcription	Disease related genes, Human disease related genes, ...	
+PVRIG	rs7384878	0.078	PVR related immunoglobulin domain containing	Cluster 6: Non-specific - Immune response	Predicted membrane proteins	
+AGFG2	rs7384878	0.078	ArfGAP with FG repeats 2	Cluster 51: Neurons - Mixed function	Predicted intracellular proteins	Cytosol
+CR1	rs6656401	-0.125	Complement C3b/C4b receptor 1 (Knops blood group)	Cluster 11: White matter - Signal transduction	Blood group antigen proteins, CD markers, ...	Plasma membrane
+HLA-DQB2	rs6605556	-0.098	Major histocompatibility complex, class II, DQ beta 2		Predicted intracellular proteins, Predicted membrane proteins	
+TBX6	rs1140239	-0.059	T-box transcription factor 6	Cluster 6: Non-specific - Immune response	Disease related genes, Human disease related genes, ...	Nucleoplasm
+AZGP1	rs7384878	0.078	Alpha-2-glycoprotein 1, zinc-binding	Cluster 26: Oligodendrocytes - Mixed function	Cancer-related genes, Plasma proteins, ...	Vesicles
+AP4M1	rs7384878	0.078	Adaptor related protein complex 4 subunit mu 1	Cluster 18: Non-specific - Mixed function	Disease related genes, Human disease related genes, ...	
+MAPT	rs242561	0.054	Microtubule associated protein tau	Cluster 14: Neurons - Synaptic function	Candidate cardiovascular disease genes, Disease related genes, ...	Plasma membrane, End piece
+RASGEF1C	rs113706587	0.092	RasGEF domain family member 1C	Cluster 10: Cerebellum - Nucleic acid binding	Predicted intracellular proteins	Mitochondria
+HLA-DQB1	rs6605556	-0.098	Major histocompatibility complex, class II, DQ beta 1	Cluster 22: Non-specific - Mixed function	Human disease related genes, Predicted intracellular proteins, ...	Rods & Rings
+RIN3	rs9323877	0.065	Ras and Rab interactor 3	Cluster 20: Macrophages & Microglia - Immune response	Predicted intracellular proteins	
+GNB2	rs7384878	0.078	G protein subunit beta 2	Cluster 33: Neurons - Mixed function	Disease related genes, Human disease related genes, ...	Plasma membrane
+BIN1	rs10166461	-0.108	Bridging integrator 1	Cluster 11: White matter - Signal transduction	Disease related genes, Human disease related genes, ...	Cytosol
+SLC39A13	rs3824869	-0.051	Solute carrier family 39 member 13	Cluster 18: Non-specific - Mixed function	Disease related genes, Human disease related genes, ...	

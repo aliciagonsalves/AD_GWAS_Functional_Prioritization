@@ -1,0 +1,10 @@
+{
+    "gwas_significant_risk": 2524,
+    "gwas_significant_protective": 2992,
+    "independent_lead_risk": 53,
+    "independent_lead_protective": 42,
+    "eqtl_associated_risk": 25,
+    "eqtl_associated_protective": 19,
+    "hic_supported_risk": 9,
+    "hic_supported_protective": 10
+}
